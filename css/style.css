@@ -1,0 +1,31 @@
+#feedback { font-size: 1.4em; }
+.liste3 .ui-selecting {
+     background: #FECA40;
+     }
+.liste3 .ui-selected {
+     background: #F39814;
+      color: white;
+     }
+.liste3 {
+ list-style-type: none;
+ margin: 3rem;
+ padding: 0;
+ width: 80%;
+ }
+.liste3 li {
+ margin: 5px;
+ padding: 1.5em; 
+ font-size: 1.4em;
+ height: 1px;
+ }
+ 
+ .liste3 li:hover {
+    cursor: pointer;
+    }
+
+
+    .clock {
+
+        margin: 2rem;
+    
+    }

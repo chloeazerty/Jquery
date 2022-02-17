@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  
+<!-- bootstrap -->
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+     <!-- jQuery UI css  -->
+
+   <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+
+  <!-- jquery normal -->
+  <script src="http://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/ui/1.13.0/jquery-ui.js"></script>
+
+    <!-- slidr by blister -->
+     
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+  <!-- css -->
+  <link rel="stylesheet" href="css/style.css">
+  <!-- main script -->
+    <script src="./js/main.js" defer ></script>
+</head>
+<body onLoad="startClock()" onUnLoad="stopClock()">
+    <main>
+        <header>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">  
+                        <h1 class="titl">Mise en situation jQuery</h1>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <section id="section-1">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h2>Liste 1</h2>
+                        <ul id="liste1">
+                            <li>Item 1</li>
+                            <li>Item 2</li>
+                            <li>Item 3</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6">
+                        <h2>Liste 2</h2>
+                        <ul id="liste2">
+                            <li>Item 1</li>
+                            <li>Item 2</li>
+                            <li>Item 3</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="section-2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+
+                        <div class="accordion accordion-flush" id="accordionFlushExample">
+                            <div class="accordion-item">
+                              <h2 class="accordion-header" id="flush-headingOne">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                                  Accordion Item #1
+                                </button>
+                              </h2>
+                              <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+                              </div>
+                            </div>
+                        </div>  
+                    </div>
+                    <div class="col-md-4">
+                        <h2>Liste 3</h2>
+
+                        <div class="slider">
+                            <div> <img src="img/background.jpg" alt=""> I am a slide.</div>
+                            <div> <img src="img/background.jpg" alt=""> I am another slide.</div>
+                          </div>
+
+                        <ul id="liste3" class="liste3" > 
+                            <li class="ui-widget-content"> Item1  </li>
+                            <li class="ui-widget-content">Item2</li>
+                            <li class="ui-widget-content">Item3  </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4">
+                        <form id="formulaire-titre" action="#">
+                            <input type="text" placeholder="titre" id="titre">
+                            <input type="submit" value="Changer" id="changer">
+                        </form>
+                        
+                        <form name="Clock" class="clock">
+                            <center>
+                            <p><input type="text" name="Horloge" size="8" style="font-family: Courier New"></p>
+                            </center>
+                       </form>
+
+                    </div>
+                    
+
+
+                </div>
+            </div>
+        </section>
+    </main>
+    <a href="#" class="btn btn-primary my-1" id="btn1">Bouton 1</a>
+    <a href="#" class="btn btn-primary my-1" id="btn2">Bouton 2</a>
+    <a href="#" class="btn btn-primary my-1" id="btn3">Bouton 3</a>
+    <a href="#" class="btn btn-primary my-1" id="btn4">Bouton 4</a>
+    <a href="#" class="btn btn-primary my-1" id="btn5">Bouton 5</a>
+    <a href="#" class="btn btn-primary my-1" id="btn6">Bouton 6</a>
+    <a href="#" class="btn btn-primary my-1"id="btn7">Bouton 7</a>
+    <a href="#" class="btn btn-primary my-1" id="btn8">Bouton 8</a>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script>
+        
+    </script>
+</body>
+</html>
